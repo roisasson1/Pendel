@@ -1,0 +1,29 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    padding: 60px;
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-image: url("https://github.com/roisasson1/Pendel/blob/main/Background.png?raw=true");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.logo {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
